@@ -22,7 +22,7 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: 22
         script: |
-          cd root/backendhw3/myproject
+          cd root/backendhw3
           source root/venv/bin/activate
           git pull
           python manage.py migrate
